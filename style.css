@@ -9,3 +9,26 @@ img{
 }
 img:hover{
     transform: translate(-8px);
+}
+img{
+    max-width: 50%;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    box-shadow: 1px 4px 15px 1px;
+}
+img:hover{
+    transform: translate(-8px);
+}
+.galeria {
+    display: flex;
+    gap: 15px;
+}
+
+.galeria img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+}
